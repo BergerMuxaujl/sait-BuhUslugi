@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<head>
+	<meta charset='UTF-8'><meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0'><meta http-equiv='X-UA-Compatible' content='ie=edge'>
+	<link rel='stylesheet' href='./css/style.css'>
+	<link rel='stylesheet' href='./css/slider.css'>
+	<link rel='stylesheet' href='./css/media.css'>
+	<link rel='stylesheet' href='./css/calc-frame.css'>
+	<title>Главная страница</title>
+	</head>
+<body>
+	<!-- /////////////////////HEADER/////////////////////////////// -->
+	<header>
+		<div class="container container_header">
+			<div class="logo h-logo">
+				<a class="logo__a" href="./index.html"><img class="logo__img" src="./img/header-logo.png" alt="logo"></img></a>
+				<div class="logo__offer">Бухгалтерское обслуживание компаний</div>
+				<div class="logo__mobile-button">
+					<div class="logo__button-el"></div>
+					<div class="logo__button-el"></div>
+					<div class="logo__button-el"></div>
+					<div class="logo__button-el"></div>
+				</div>
+			</div>
+			<div class="contacts contacts_header">
+				<div class="address__box">
+					<img class="address__img" src="./img/address.png" alt="address">
+					<a href="#map" class="address__text">ул.Дмитриевского</a>
+				</div>
+				<div class="email__box">
+					<img class="email__img" src="./img/mail.png" alt="mail">
+					<div class="email__text">test@gmail.com</div>
+				</div>
+			</div>
+			<div class="request-call request-call_header">
+				<div class="request-call__phone">8 800 350-08-36</div>
+				<div class="request-call__button">Заказать звонок</div>
+			</div>
+		</div>
+	</header>
+
+
+	<!-- ////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+		 /////////////////////OFFER/////////////////////////////// -->
+	<section class="section">
+		<div class="offer">
+			<div class="container container_offer">
+				<h1 class="offer__title">Избавьтесь от бумажной волокиты!</h1>
+				<h2 class="offer__subtitle">с помощью бухгалтерского обслуживания<br/> 
+					<span>от 3000 руб. в месяц</span></h2>
+				<div class="offer-call offer-call_h">
+					<input class="offer-call__phone" id="phone-input1" placeholder="Введите номер телефона"></input>
+					<button class="offer-call__button" type="submit">Заказать звонок</button>
+				</div>
+				<div class="social social_offer">
+					<div class="social__title">Для удобство можете связаться<br/> с нами через месенджеры </div>
+					<div class="social-images">
+						<a class="social-wu social-images__link" href="#"><img class="social-wu__img" src="./img/wu.png" alt="WU"></img></a>
+						<a class="social-tm social-images__link" href="#"><img class="social-tm__img" src="./img/tm.png" alt="TM"></img></a>
+						<a class="social-vk social-images__link" href="#"><img class="social-vk__img" src="./img/vk.png" alt="VK"></img></a>
+						<a class="social-vb social-images__link" href="#"><img class="social-vb__img" src="./img/vb.png" alt="VB"></img></a>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<!-- ////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+		/////////////////////ПРЕИМУЩЕСТВА//////////////////////// -->
+	<section class="section">
+		<div class="benefits">
+			<div class="container container_benefits">
+				<h2 class="block-title block-title_benefits">Преимущества работы с нами</h2>
+				<div class="benefits-table">
+					<div class="benefits-item">
+						<div class="benefits__box"><img src="./img/benefits-item__img1.png" alt="benefits-item__img1" class="benefits-item__img"></img></div>
+						<div class="benefits-item__text">Гарантия подкрепленная<br/>договором ИНГОССТРАХ<br/>на 1 000 000 руб.</div>
+					</div>
+					<div class="benefits-item">
+						<div class="benefits__box"><img src="./img/benefits-item__img2.png" alt="benefits-item__img2" class="benefits-item__img"></img></div>
+						<div class="benefits-item__text">Электронная отчетность стоимостью 5000р в подарок</div>
+					</div>
+					<div class="benefits-item">
+						<div class="benefits__box"><img src="./img/benefits-item__img3.png" alt="benefits-item__img3" class="benefits-item__img"></img></div>
+						<div class="benefits-item__text">Средний срок работы<br/>бухгалтера в нашей<br/>компании 6 лет</div>
+					</div>
+					<div class="benefits-item">
+						<div class="benefits__box"><img src="./img/benefits-item__img4.png" alt="benefits-item__img4" class="benefits-item__img"></img></div>
+						<div class="benefits-item__text">Индивидуальный подход, прикрепленный бухгалтер</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- ////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+		/////////////////////КАЛЬКУЛЯТОР///////////////////////// -->
+	<section class="section">
+		<div class="container container_calc">
+			<div class="calc-left">
+				<!-- /////Frame-1 \\\\-->
+				<div class="calc-title">Выбирите один из вариантов</div>
+				<div class="main-frame main-frame1 frame-1">
+					<div class="calc-person">Индивидуальный предприниматель</div>
+					<div class="calc-person">Общество с ограниченной ответственностью</div>
+				</div>
+				<!-- /////Frame-2 \\\\-->
+				<div class="main-frame main-frame2 frame-2">
+					<div class="frame-box fbc1-2">
+						<label class="frame-label">Количество человек</label>
+						<select class="frame-select">
+							<option>Без сотрудников</option>
+							<option>1</option>
+							<option>от 2 до 4</option>
+							<option>от 5 до 10</option>
+							<option>более 10</option>
+						</select>
+					</div>
+				</div>
+				<!-- /////Frame-3 \\\\-->
+				<div class="main-frame main-frame3 frame-3">
+					<div class="frame-box fbc1-3">
+						<label class="frame-label">Система налогообложения</label>
+						<select class="frame-select">
+							<option>Вариант 1</option>
+							<option>Вариант 2</option>
+							<option>Вариант 3</option>
+						</select>
+					</div>
+					<div class="frame-box fbc2-3">
+						<label class="frame-label">УСН (доходы)</label>
+						<input type="text" class="text-frame frame2-usn1" placeholder="Введите сумму в руб."></input>
+					</div>
+					<div class="frame-box fbc1-3">
+						<label class="frame-label">УСН (доходы минус расходы)</label>
+						<input type="text" class="text-frame frame2-usn2" placeholder="Введите сумму в руб."></input>
+					</div>
+					<div class="frame-box fbc2-3">
+						<label class="frame-label">ОСНО</label>
+						<input type="text" class="text-frame frame2-osno" placeholder="Введите ..."></input>
+					</div>
+				</div>
+				<!-- /////Frame-4 \\\\-->
+				<div class="main-frame main-frame4 frame-4">
+					<div class="frame-box fbc1-4">
+						<label class="frame-label">Количество документов</label>
+						<select class="frame-select">
+							<option>5</option>
+							<option>5-10</option>
+							<option>10-20</option>
+							<option>20-50</option>
+						</select>
+					</div>
+				</div>
+				<!-- /////Frame-5 \\\\-->
+				<div class="main-frame main-frame5 frame-5">
+					<div class="frame-box fbc1-5">
+						<label class="frame-label">Номер телефона</label>
+						<input type="tel" class="text-frame frame5-tel" placeholder="+7 (___)-___-__-__"></input>
+					</div>
+				</div>
+				<!--/////\\\\\\  -->
+				<!-- /////Frame-6 \\\\-->
+				<div class="main-frame main-frame6 frame-6">
+					<div class="title-cost">Стоимость</div>
+					<div class="cost">20000 руб.</div>
+					<div class="text-cost">Спасибо за заявку,<br/>наш менеджер свяжется с вами!</div>
+				</div>
+				<!--/////\\\\\\  -->	
+				<div class="buttons">
+					<div class="button-back frame-2 frame-3 frame-4 frame-5">
+						<img src="./img/back.png" alt="back" class="img-back">
+						</img>&nbsp Назад
+					</div>
+					<div class="button-next">Далее</div>
+				</div>
+			</div>
+			<div class="calc-right">
+				<div class="block-title block-title_calc">Калькулятор стоимости сопровождения</div>
+				<div class="calc-right__text">Заполните пару шагов для расчета стоимости и получите <span class="calc-right__text--color">Бонус 1 месяц бесплатно</span>
+				</div>
+				<div class="sidebar">
+					<div class="sidebar__box"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- ////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+		/////////////////////СОТРУДНИКИ////////////////////////// -->
+	<section class="section">
+		<div class="personal"><div class="personal-mask">
+			<div class="container container_personal">
+				<div class="block-title block-title_personal">Наши сотрудники</div>
+				<div class="workers">
+					<div class="worker">
+						<img src="./img/worker1.png" alt="worker1" class="worker__img"></img>
+						<div class="worker__job">Директор</div>
+						<div class="worker__name">Елена Бойкова</div>
+						<div class="worker__exp">Стаж 10 лет</div>
+					</div>
+					<div class="worker">
+						<img src="./img/worker2.png" alt="worker2" class="worker__img"></img>
+						<div class="worker__job">Бухгалтер</div>
+						<div class="worker__name">Михайлова Надежда</div>
+						<div class="worker__exp">Стаж 6 лет</div>
+					</div>
+					<div class="worker">
+						<img src="./img/worker3.png" alt="worker3" class="worker__img"></img>
+						<div class="worker__job">Бухгалтер</div>
+						<div class="worker__name">Максимова Анна</div>
+						<div class="worker__exp">Стаж 8 лет</div>
+					</div>
+					<div class="worker">
+						<img src="./img/worker4.png" alt="worker4" class="worker__img"></img>
+						<div class="worker__job">Главный Бухгалтер</div>
+						<div class="worker__name">Чумарова Ксения</div>
+						<div class="worker__exp">Стаж 10 лет</div>
+					</div>
+					<div class="worker">
+						<img src="./img/worker5.png" alt="worker5" class="worker_img"></img>
+						<div class="worker__job">Бухгалтер</div>
+						<div class="worker__name">Винокурова Юлия</div>
+						<div class="worker__exp">Стаж 6 лет</div>
+					</div>
+					<div class="worker">
+						<img src="./img/worker6.png" alt="worker6" class="worker_img"></img>
+						<div class="worker__job">Бухгалтер</div>
+						<div class="worker__name">Матвеева Галина</div>
+						<div class="worker__exp">Стаж 7 лет</div>
+					</div>
+				</div>
+			</div>
+		</div></div>
+	</section>
+	<section class="section">
+		<div class="diplomas">
+<!-- /////////////////////////////////////////////////////////////////////
+	 /////////////////////////Сертификаты\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+			<div class="container container_diplomas">
+				<div class="block-title">Дипломы наших сотрудников и страховой полис</div>
+				<div class="diplomas-images">
+					
+						<div class="diplomas-images__box">
+							<img src="./img/diploma1.png" alt="diploma1" class="diplomas-images__img"></img>
+						</div>
+						<div class="diplomas-images__box">
+							<img src="./img/diploma2.png" alt="diploma2" class="diplomas-images__img"></img>
+						</div>
+						<div class="diplomas-images__box">
+							<div class="middleblock">
+								<img src="./img/diploma3.jpg" alt="diploma3" class="diplomas-images__img"></img>
+							</div>
+						</div>
+					
+				</div>	
+			</div>
+		</div>
+	</section>
+	<!-- ///////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+		/////////////////////////Отзывы\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+	<section class="section">
+		<div class="reviews">
+			<div class="container container_reviews">	
+				<div class="block-title">Отзывы наших клиентов</div>
+				<div class="letter-images">
+					<div class="letter-images__box">
+						<img src="./img/letter1.jpg" alt="letter1" class="letter-images__img"></img>
+					</div>
+					<div class="letter-images__box">
+						<img src="./img/letter2.jpg" alt="letter2" class="letter-images__img"></img>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--////////////////////НАШИ КЛИЕНТЫ\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+	<section class="section">
+		<div class="clients">
+			<div class="container container_clients">
+				<div class="block-title block-title_clients">Наши клиенты и партнеры</div>
+				<div class="clients__table">
+					<div class="clients__box"><img src="./img/client1.png" alt="client1" class="clients__img"></img></div>
+					<div class="clients__box"><img src="./img/client2.png" alt="client2" class="clients__img"></img></div>
+					<div class="clients__box"><img src="./img/client3.png" alt="client3" class="clients__img"></img></div>
+					<div class="clients__box"><img src="./img/client4.png" alt="client4" class="clients__img"></img></div>
+					<div class="clients__box"><img src="./img/client5.png" alt="client5" class="clients__img"></img></div>
+					<div class="clients__box"><img src="./img/client6.png" alt="client6" class="clients__img"></img></div>
+					<div class="clients__box"><img src="./img/client7.png" alt="client7" class="clients__img"></img></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section">
+		<div class="calling">
+			<div class="container container_calling">
+				<div class="block-title block-title_calling">Обслуживание 2 недели бесплатно</div>
+				<div class="calling__text">Закажите “тест драйв” в нашей компании обслуживание 2 недели бесплатно</div>
+				<div class="offer-call offer-call_b">
+					<div class="offer-call__box-phone">
+						<label class="offer-call__label" for="phone-input2">Номер телефона</label>
+						<input class="offer-call__phone" id="phone-input2" placeholder="+7 (000) -___-__-__"></input>
+					</div>
+					<button class="offer-call__button " type="submit">Заказать</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="map" id="map">
+		<div class="map__box">
+			<iframe class="map__frame"
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6741.163785397767!2d30.33371900064708!3d59.84648321542594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469625493da7e011%3A0xc542d678f3652595!2z0JHRg9GF0LPQsNC70YLQtdGA0YHQutC40Lkg0YbQtdC90YLRgCDQlNC40LDQu9C-0LM!5e0!3m2!1sru!2sru!4v1602859170505!5m2!1sru!2sru"
+				width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+				tabindex="0">
+			</iframe>
+		</div>
+		<div class="container container_map">	
+			<div class="map-form">
+				<img src="./img/map-img.jpg" alt="map-img" class="map-form__img"></img>
+				<div class="map-form_address">г. Санкт – Петербург<br />пр. Юрия Гагарина д. 34, корп. 3,<br />лит.Б, офис.29 Территория "Южного рынка"</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="container conteiner_footer">			
+			<div class="logo f-logo">
+				<a class="logo__a" href="./index.html"><img class="logo__img" src="./img/header-logo.png" alt="logo"></img></a>
+				<div class="logo__offer">Бухгалтерское обслуживание компаний</div>
+			</div>
+			<div class="contacts contacts_footer">
+				<div class="address__box">
+					<img class="address__img" src="./img/address.png" alt="address">
+					<a href="#map" class="address__text">ул.Дмитриевского</a>
+				</div>
+				<div class="email__box">
+					<img class="email__img" src="./img/mail.png" alt="mail">
+					<div class="email__text">test@gmail.com</div>
+				</div>
+				<div class="social social_footer">
+					<div class="social-images">
+						<a class="social-wu social-images__link" href="#"><img class="social-wu__img" src="./img/wu.png" alt="WU"></img></a>
+						<a class="social-tm social-images__link" href="#"><img class="social-tm__img" src="./img/tm.png" alt="TM"></img></a>
+						<a class="social-vk social-images__link" href="#"><img class="social-vk__img" src="./img/vk.png" alt="VK"></img></a>
+						<a class="social-vb social-images__link" href="#"><img class="social-vb__img" src="./img/vb.png" alt="VB"></img></a>
+					</div>
+				</div>
+			</div>
+			<div class="request-call request-call_footer">
+				<div class="request-call__phone">8 800 350-08-36</div>
+				<div class="request-call__button">Заказать звонок</div>
+			</div>
+		</div>
+	</footer>
+	<script src="./jquery/jquery-3.5.1.min.js"></script>
+	<script src="./jquery/slick.min.js"></script>
+	<script src="./jquery/script.js"></script>
+
+</html>

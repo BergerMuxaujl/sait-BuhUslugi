@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/* Слайдер */
+/* Слайдер запущен */
+/* Слайдер с точками */
+/* Ограничивающая оболочка */
+.slick-list {
+  overflow: hidden;
+  margin: -15px -15px -15px -15px;
+  padding-left: 15px;
+}
+
+/* Лента слайдов */
+.slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* Слайд */
+.slick-slide {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Слайд активный (показывается) */
+/* Слайд основной */
+/* Слайд по центру */
+/* Клонированный слайд */
+/* Стрелка */
+.slick-arrow {
+  position: absolute;
+  z-index: 10;
+  width: 32px;
+  height: 32px;
+  top: calc(50% - 16px);
+  font-size: 0;
+  background-size: cover;
+  border: none;
+  background: #2378EB;
+  border-radius: 50%;
+  background-image: url("../img/Vector.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slick-arrow:focus {
+  outline: none;
+}
+
+/* Стрелка влево */
+.slick-arrow.slick-prev {
+  left: 20px;
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+/* Стрелка вправо */
+.slick-arrow.slick-next {
+  right: 20px;
+}
+
+/* Стрелка не активная */
+/* Точки (булиты) */
+/* Активная точка */
+/* Элемент точки */

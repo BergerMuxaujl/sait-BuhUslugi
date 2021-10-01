@@ -1,0 +1,9 @@
+.calc-left .showFrame {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.calc-left .hideFrame {
+  display: none;
+}
